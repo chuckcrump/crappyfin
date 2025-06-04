@@ -1,0 +1,63 @@
+[
+  {
+    "uuid": "0419cde2-7e8f-4942-960a-b41bff94b98a",
+    "name": "A New Hope (1977)",
+    "videoPath": "/home/andy/projects/crappyfin/streaming-frontend/media/A New Hope (1977)/a-new-hope.mp4",
+    "coverPath": "/home/andy/projects/crappyfin/streaming-frontend/media/A New Hope (1977)/cover.jpeg",
+    "mimes": "image/jpeg"
+  },
+  {
+    "uuid": "7cfe1004-422c-49db-be9a-b134cfced4fd",
+    "name": "Alita Battle Angel (2019)",
+    "videoPath": "/home/andy/projects/crappyfin/streaming-frontend/media/Alita Battle Angel (2019)/Alita.Battle.Angel.2019.1080p.BluRay.x264-[YTS.LT].mp4",
+    "coverPath": "/home/andy/projects/crappyfin/streaming-frontend/media/Alita Battle Angel (2019)/cover.jpg",
+    "subtitlePath": "/home/andy/projects/crappyfin/streaming-frontend/media/Alita Battle Angel (2019)/Alita - Battle Angel (2019).eng.srt.vtt",
+    "mimes": "image/jpeg"
+  },
+  {
+    "uuid": "4eebbee4-6a0c-4e6c-a375-1536a2792b4b",
+    "name": "aerinsthaiernsthirae",
+    "mimes": "application/octet-stream"
+  },
+  {
+    "uuid": "4aef3bb8-90f1-420d-8d5c-011f45d427c2",
+    "name": "cat",
+    "mimes": "application/octet-stream"
+  },
+  {
+    "uuid": "76ab48e6-8520-4f5c-9759-12db16be0569",
+    "name": "danger5",
+    "videoPath": "/home/andy/projects/crappyfin/streaming-frontend/media/danger5/danger5.mp4",
+    "mimes": "application/octet-stream"
+  },
+  {
+    "uuid": "f8b2cd22-1348-4891-a240-4f9bfa11c683",
+    "name": "joe",
+    "mimes": "application/octet-stream"
+  },
+  {
+    "uuid": "fb23ee68-7884-42f8-be3a-06dc258957e4",
+    "name": "orstears",
+    "mimes": "application/octet-stream"
+  },
+  {
+    "uuid": "def30149-6e35-45d8-b35d-17eaa5b9abef",
+    "name": "rstardrstd",
+    "mimes": "application/octet-stream"
+  },
+  {
+    "uuid": "b62c328c-4058-4a77-a034-c98bddd01441",
+    "name": "rstdrstdrdrdt",
+    "mimes": "application/octet-stream"
+  },
+  {
+    "uuid": "7a300f83-9c34-48ba-8180-9c67a448ebfa",
+    "name": "sigma",
+    "mimes": "application/octet-stream"
+  },
+  {
+    "uuid": "11076cc4-621b-4d66-8e50-10fc66b79225",
+    "name": "srtdrstd",
+    "mimes": "application/octet-stream"
+  }
+]

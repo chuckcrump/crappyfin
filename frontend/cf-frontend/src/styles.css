@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import "tailwindcss";
+
+body {
+  background-color: #242424;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.button-main {
+  @apply p-2 px-3 rounded-full bg-blue-500 active:scale-95 ease-in-out transition-all cursor-pointer text-[14px] text-white;
+}
+
+.ibm-plex-sans-500 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.movie-grid > * {
+  aspect-ratio: var(--ratio);
+  width: 100%;
+  height: auto;
+}

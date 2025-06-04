@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit + TS</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/cf-media-player.ts"></script>
+  </head>
+  <script>
+    let subs = [
+      { language: "en", url: "http://joe.com" },
+      { language: "jp", url: "http://joe.jp" },
+    ];
+
+    window.addEventListener("DOMContentLoaded", () => {
+      const player = document.querySelector("cf-media-player");
+      player.subs = subs;
+    });
+  </script>
+  <body>
+    <cf-media-player
+      src="http://localhost:8080/api/streaming/stream/7cfe1004-422c-49db-be9a-b134cfced4fd"
+    />
+  </body>
+</html>
